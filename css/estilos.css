@@ -401,21 +401,7 @@ button:hover {
 @media (min-width:434px) {
 
 
-main{
-    width: 90%;
-}
-.texto__sobreMi{
-    padding: 80px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-}
- .texto__sobreMi p{
- text-align: justify;
-}
 
-.formacion__luis{
-    
-}
 
 }
 
@@ -429,7 +415,17 @@ main{
 .menu__lista li a{
     display: block;
 }
-
+main{
+    width: 90%;
+}
+.texto__sobreMi{
+    padding: 80px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+ .texto__sobreMi p{
+ text-align: justify;
+}
 
 
 .formulario__contenedor{
