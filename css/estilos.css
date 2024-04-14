@@ -180,15 +180,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: auto 0;
+    padding-bottom: 20px;
 }
 
 .formacion__luis li {
     flex: 0 0 calc(100% -20%); /* Ajusta el ancho de cada elemento al 60% del contenedor con un pequeño margen */
     max-width: 270px; 
-    margin:0 auto;/* Establece el ancho máximo para evitar que los elementos sean demasiado grandes */
-    margin-bottom: 20px; /* Agrega un espacio entre los elementos */
+    margin-bottom: 40px; /* Agrega un espacio entre los elementos */
     text-align: center;
-    align-items: center; /* Centra el contenido */
 }
 
 .formacion__luis img {
