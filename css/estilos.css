@@ -165,6 +165,7 @@ body{
 .contenedor__formacion {
     padding: 50px;
     background-color: aliceblue;
+    margin-top: 30px;
 }
 
 .contenedor__formacion h2 {
@@ -183,9 +184,11 @@ body{
 
 .formacion__luis li {
     flex: 0 0 calc(100% -20%); /* Ajusta el ancho de cada elemento al 60% del contenedor con un pequeño margen */
-    max-width: 270px; /* Establece el ancho máximo para evitar que los elementos sean demasiado grandes */
+    max-width: 270px; 
+    margin:0 auto;/* Establece el ancho máximo para evitar que los elementos sean demasiado grandes */
     margin-bottom: 20px; /* Agrega un espacio entre los elementos */
-    text-align: center; /* Centra el contenido */
+    text-align: center;
+    align-items: center; /* Centra el contenido */
 }
 
 .formacion__luis img {
