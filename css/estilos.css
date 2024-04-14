@@ -146,9 +146,9 @@ body{
     background-color: rgba(155, 211, 249, 0.484);
     /*background: linear-gradient(180deg,rgb(226, 240, 253),white);*/
     color: rgb(126, 126, 126);
-    padding: 10px;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    padding: 40px;
+    padding-top: 20px;
+    margin-bottom: 40px;
     border-radius: 10px;
     text-align: justify;
 }
@@ -176,6 +176,7 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+
 }
 .formacion__luis li{
     flex-shrink:1;
@@ -397,7 +398,7 @@ button:hover {
 
 
 
-@media (max-width:434px) {
+@media (min-width:434px) {
 
 
 main{
@@ -408,19 +409,18 @@ main{
     padding-top: 40px;
     margin-bottom: 40px;
 }
-.texto__sobreMi p{
-text-align: justify;
-padding: 15px 0px 15px 0px;
+ .texto__sobreMi p{
+ text-align: justify;
+}
 
+.formacion__luis{
+    
 }
 
 }
 
 @media (min-width:834px){
 
-    main{
-        width: 90%;
-    }
 .contenedor__experiencia{
     display: flex;
     justify-content: space-between;
@@ -429,11 +429,7 @@ padding: 15px 0px 15px 0px;
 .menu__lista li a{
     display: block;
 }
-.texto__sobreMi{
-    padding: 80px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-}
+
 
 
 .formulario__contenedor{
