@@ -146,9 +146,9 @@ body{
     background-color: rgba(155, 211, 249, 0.484);
     /*background: linear-gradient(180deg,rgb(226, 240, 253),white);*/
     color: rgb(126, 126, 126);
-    padding: 40px;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
     border-radius: 10px;
     text-align: justify;
 }
