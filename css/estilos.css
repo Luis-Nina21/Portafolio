@@ -270,19 +270,16 @@ body{
 }
 
 .proyecto__profesional{
-    
-    align-items: center;
-    justify-content: space-around;
-    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
     gap: 20px;
-    margin: 0 auto;
 }
 
 .proyecto__profesional img{
-    width: 90%;
-    height: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 120px;
+    height: 60px;
     align-items: center;
 }
 
@@ -315,7 +312,7 @@ body{
 }
 .iconos_repo button{
     background-color: rgb(23, 100, 244);
-    padding: 15px;
+    padding: 5px;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.821);
     cursor: pointer;
@@ -445,15 +442,15 @@ button:hover {
 }
 .proyecto__profesional{
     display: flex;
-    flex-direction: row; 
-    padding-left: 10%;
-    padding-right: 10%;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+    max-width: 100%;
+    gap: 20px;
 }
 .proyecto__profesional img{
    width: 60%;
    height: auto;
-
-
 }
 .formacion__luis li {
     flex: 0 0 calc(33.333% - 20px); /* Para pantallas más grandes, ajusta el ancho a un tercio del contenedor */
