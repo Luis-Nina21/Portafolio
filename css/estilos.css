@@ -398,7 +398,12 @@ button:hover {
 
 
 
-@media (min-width:434px) {
+@media (max-width:434px) {
+
+
+main{
+    width: 90%;
+}
 
 }
 
