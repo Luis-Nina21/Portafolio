@@ -132,10 +132,7 @@ body{
 
 
 
-.seccion__principal{
-    display: flex;
-    flex-direction: row;
-}
+
 
 /*-----Seccion sobre mi ---------------------*/
 .texto__sobreMi h2{
@@ -149,10 +146,11 @@ body{
     background-color: rgba(155, 211, 249, 0.484);
     /*background: linear-gradient(180deg,rgb(226, 240, 253),white);*/
     color: rgb(126, 126, 126);
-    padding: 80px;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    padding: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    text-align: justify;
 }
 .texto__sobreMi p{
     color: rgba(126, 126, 126, 0.732);
@@ -420,6 +418,14 @@ main{
 
 .menu__lista li a{
     display: block;
+}
+.texto__sobreMi{
+    padding: 80px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.texto__sobreMi p{
+text-align: justify;
 }
 
 .formulario__contenedor{
