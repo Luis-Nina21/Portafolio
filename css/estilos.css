@@ -3,9 +3,9 @@ body{
     
 }
 
-main{
-    margin-left: 90px;
-    margin-right: 90px;
+.contenedor__main{
+   width: 80%;
+   margin: 0 auto;
 }
 
 
@@ -96,6 +96,7 @@ main{
 
 .contenedor_redes{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -409,6 +410,9 @@ main{
 
 @media (min-width:834px){
 
+    main{
+        width: 90%;
+    }
 .contenedor__experiencia{
     display: flex;
     justify-content: space-between;
