@@ -398,6 +398,10 @@ button:hover {
 
 
 
+@media (min-width:434px) {
+
+}
+
 @media (min-width:834px){
 
 .contenedor__experiencia{
@@ -426,3 +430,4 @@ button:hover {
 
 
 }
+
