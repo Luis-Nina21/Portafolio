@@ -146,7 +146,7 @@ body{
     background-color: rgba(155, 211, 249, 0.484);
     /*background: linear-gradient(180deg,rgb(226, 240, 253),white);*/
     color: rgb(126, 126, 126);
-    padding: 20px;
+    padding: 40px;
     padding-top: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -176,10 +176,13 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+   
 
 }
-.formacion__luis li{
-    flex-shrink:1;
+.formacion__luis li img{
+    width: 100%;
+    height: 100%;
+    
 }
 .formacion__luis h3{
     color: black;
