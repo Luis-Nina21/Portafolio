@@ -445,7 +445,7 @@ button:hover {
 }
 .proyecto__profesional{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     padding-left: 10%;
     padding-right: 10%;
 }
