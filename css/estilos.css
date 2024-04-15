@@ -280,7 +280,6 @@ body{
 
 .proyecto__profesional img{
     align-items: center;
-    width: 100%;
 }
 
 .descripcion__experiencia{
@@ -425,7 +424,9 @@ button:hover {
 
 @media (min-width:434px) {
 
-
+.seccion__principal{
+    margin-top: 50px;
+}
 
 
 }
