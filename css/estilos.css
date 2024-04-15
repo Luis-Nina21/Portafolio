@@ -280,6 +280,7 @@ body{
 
 .proyecto__profesional img{
     align-items: center;
+    width: 100%;
 }
 
 .descripcion__experiencia{
@@ -297,7 +298,6 @@ body{
 }
 .descripcion__experiencia p{
     color: rgb(97, 97, 97);
-
 }
 
 .iconos_repo{
